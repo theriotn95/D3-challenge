@@ -1,3 +1,4 @@
+function create_chart(){
 
 var svgWidth = 960;
 var svgHeight = 550;
@@ -96,4 +97,6 @@ chartGroup.append("text")
       
   
     });
-    
+    }           
+
+    create_chart();

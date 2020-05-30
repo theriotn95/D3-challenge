@@ -88,12 +88,12 @@ var yLinearScale = d3.scaleLinear()
  .attr("x", 0 -250)
  .attr("dy", "1em")
  .attr("class", "axisText")
- .text("Obesity(%)");
+ .text("Obese Population (%)");
 
 chartGroup.append("text")
- .attr("transform", `translate(${width / 2.5}, ${height + margin.top + 25})`)
+ .attr("transform", `translate(${width / 2.5}, ${height + margin.top + 27})`)
  .attr("class", "axisText")
- .text("Healthcare(%)");
+ .text("Lacks Healthcare(%)");
       
   
     });

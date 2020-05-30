@@ -1,4 +1,3 @@
-function create_chart(){
 
 var svgWidth = 960;
 var svgHeight = 550;
@@ -53,7 +52,7 @@ var yLinearScale = d3.scaleLinear()
     chartGroup.append("g")
     .call(leftAxis);
   
-      
+    //Create circles for data points 
     var circles_states = chartGroup.selectAll("circle")
         .data(data_j)
         .enter()
@@ -97,6 +96,4 @@ chartGroup.append("text")
       
   
     });
-    }           
-
-    create_chart();
+    

@@ -8,8 +8,8 @@ The data set I workd with was based on 2014 ACS 1-year estimates: [https://factf
 
 ### Core Assignment: D3 Dabbler 
 
-I created a scatter plot between two of the data variables: `Healthcare vs. Obesity' to observe the relatiosnhip between the two comparing the states provided.
+I created a scatter plot between two of the data variables: `Healthcare (%) vs. Obesity(%)' to observe the relationship between the states population data  provided.
 
-Using the D3 techniques, I created a scatter plot that represents each state with circle elements. I coded this graphic in the `app.js` file of your homework directory—make sure you pull in the data from `data.csv` by using the `d3.csv` function.
+Using the D3 techniques, I created a scatter plot that represents each state with circle elements. I coded this graphic in the `app.js` file of your homework directory and made sure to pull in the data from `data.csv` by using the `d3.csv` function.
 
 
